@@ -1,0 +1,21 @@
+{
+  "name": "opencart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "dependencies": {
+    "cypress-xpath": "^1.6.2"
+  },
+  "devDependencies": {
+    "@types/cypress-cucumber-preprocessor": "^4.0.1"
+  }
+}
